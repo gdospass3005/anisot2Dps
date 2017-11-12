@@ -1,0 +1,6 @@
+cd compila
+rm -f *
+cp ../*f90 .
+cp ../*f .
+f90 -o anisot *.f *.f90
+

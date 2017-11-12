@@ -1,0 +1,11 @@
+cd compila
+rm -f *
+cp ../*f90 .
+mv mdle_io_utils.f90 mdle_io_utils.f
+mv mdle_prop.f90 mdle_prop.f
+mv mdle_source.f90 mdle_source.f
+mv mdle_taper.f90 mdle_taper.f
+mv mdle_utils.f90 mdle_utils.f
+mv p_anisot.f90 p_anisot.f
+xlf90 -o anisot *.f
+
